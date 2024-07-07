@@ -1,0 +1,55 @@
+.profile-title {
+    background-color: white;
+    margin-top: -20px;
+}
+h1 {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+.title {
+    margin-bottom: 30px;
+    padding-top: 50px;
+    margin-left:30px;
+    padding-left: 50px;
+}
+.editer{
+    margin: 0 50px;
+    border-radius: 10px;
+    border: 2px solid gainsboro;
+    margin-bottom: 30px;
+}
+.editbox {
+    display: flex;
+    flex-direction: column;
+}
+.editbox:last-child {
+    border-top: 2px solid gainsboro;
+}
+.editbox:first-child {
+    border-bottom: 2px solid gainsboro;
+}
+.editbox-context {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
+.logout {
+    display: block;
+    background-color: red;
+    margin: auto;
+}
+.logout-div {
+    align-items: center;
+    justify-content: center;
+}
+.edit {
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 16px;
+}
+.edit:hover {
+    background-color: rgb(230, 224, 248);
+    border-radius: 10px;
+}

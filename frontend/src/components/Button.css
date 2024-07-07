@@ -1,0 +1,40 @@
+.login-signup-button {
+    margin: 16px;
+    display: block;
+    padding: 16px 32px;
+    border: 3px solid rgb(181, 181, 181);
+    border-radius: 10px;
+    text-decoration: none;
+    align-items: center;
+    color: #586380
+}
+
+.login-signup-button:hover {
+    background-color: #d9dde8;
+}
+
+.button {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.button div {
+    margin-left: 10px
+}
+
+.signup-button {
+    background-color: #4255ff !important;
+    color: white;
+    padding: 1.125rem 1.875rem;
+    margin: 16px 16px;
+    border: none;
+}
+
+.create-course-button {
+    background-color: green;
+    color: white;
+}

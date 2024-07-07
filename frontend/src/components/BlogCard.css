@@ -1,0 +1,17 @@
+.blog-card-container{
+    background:white;
+    height: 150px;
+    padding: 12px;
+    display:flex;
+    cursor: pointer;
+}
+.blog-image{
+    height: 7.75rem;
+    max-width: 5.8125rem;
+}
+.blog-content{
+    flex-grow: 1;
+    margin-left: 1rem;
+    overflow: hidden;
+    flex-direction: column;
+}

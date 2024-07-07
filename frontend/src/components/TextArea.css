@@ -1,0 +1,35 @@
+.text{
+    padding: 10px;
+    border:none;
+    margin-top:10px
+}
+.text-area-wrapper {
+    position: relative;
+    width:100%
+  }
+  
+  .text-area-input {
+    position: relative;
+  }
+  
+  .text-area-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  .text-area-label.label-float {
+    top: 30%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+  }
+ .has-label{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }

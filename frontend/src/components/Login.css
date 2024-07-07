@@ -1,0 +1,110 @@
+
+.login-signup-layout{
+    display: flex;
+    height: 100vh;
+}
+.login-btn{
+    margin-top:12px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #4255ff;
+    color: white;
+    padding: 1.125rem 1.875rem;
+    border: none;
+    width: 100%;
+    border-radius: 12px;
+}
+.signup-btn {
+    margin-top:12px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #4255ff;
+    color: white;
+    padding: 1.125rem 1.875rem;
+    border: none;
+    width: 100%;
+    border-radius: 12px;
+}
+.left-section {
+    flex: 1;
+}
+.large-image {
+    width: 100%;
+    height: 100%;
+}
+.right-section {
+flex: 1;
+padding:16px;
+}
+.login-signup-tab-list{
+    display: flex;
+    font-size: 2rem;
+    font-weight: 700;
+    color:#586380;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.login-tab {
+    margin-right: 18px;
+    cursor: pointer;
+}
+.signup-tab{
+    cursor: pointer;
+}
+.login-signup-tab:focus{
+    display: flex;
+    color: #2E3856;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    margin:16px;
+}
+  
+.line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #c9c9ca;
+}
+  
+.text {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color:#586380
+}
+.combobox-group{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.birthday{
+    font-weight: bold;
+    font-size: 24px;
+    color:#586380;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.birthday-text{
+    margin-right:10px;
+}
+.more-info{
+    font-size: 27px;
+}
+.check-signup {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.terms-of-service {
+    margin: 10px;
+}

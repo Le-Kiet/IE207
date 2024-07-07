@@ -1,0 +1,59 @@
+.email-input{
+    display:block;
+    margin-top: 10px;
+    
+}
+.label{
+    color:#586380;
+    font-size:24px;
+    font-weight: 600;
+    display:block;
+    line-height: 1.5;
+    text-align: left
+}
+.input{
+    position: relative;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    display:block;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 4px 16px;
+    height: 48px;
+    font-size:20px;
+    font-weight: 700;
+    width:100%;
+    outline: none;
+    box-sizing: border-box;
+}
+.email-input input:focus {
+    border-bottom: 3px solid black;
+}
+.password-input{
+    position: relative;
+
+}
+.password-label{
+    display: flex;
+    justify-content: space-between;
+}
+.forgot-password{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 20px;
+    color:blue
+}
+.label{
+    display: inline-block;
+}
+.password-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }

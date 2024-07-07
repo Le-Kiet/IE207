@@ -1,0 +1,35 @@
+.match-card-container{
+    width:80%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 12px;
+    padding:20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+    align-items: center;
+  }
+
+.card{
+    border: 1px solid rgb(111, 111, 111);
+    padding:30px 10px;
+    border-radius: 12px;
+    font-size:24px;
+    text-align: center;
+}
+.card:hover{
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+}
+.card-focussing{
+    border: 1px solid blue;
+    background-color: rgb(232, 231, 255);
+}
+.hidden{
+    visibility: hidden;
+}
+.blue{
+    background-color: blue;
+}

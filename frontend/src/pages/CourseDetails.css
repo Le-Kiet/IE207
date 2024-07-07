@@ -1,0 +1,164 @@
+.page-container{
+    background-color: rgb(224, 232, 241);
+}
+.course-container{
+    text-align: left;
+    width: 80%;
+    margin:auto;
+}
+.course-options{
+    display: flex;
+    width:80%;  
+}
+.course-options a{
+    text-decoration: none;
+}
+.course-options .login-signup-button:first-child {
+    margin-left: 0;
+  }
+.login-signup-button:hover{
+    border:3px solid #cfa8ff;
+    background-color: white !important;
+}
+.card-container{
+    background-color: white;
+    width: 70%;
+    background-color: white;
+    border:2px solid rgb(224, 223, 223);
+    border-radius: 10px;
+    height:300px;
+    justify-content: center;
+    align-items: center;
+}
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px;
+}
+  
+.card-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.card-header-right {
+    display: flex;
+    align-items: center;
+}
+.card-header-right .login-signup-button:hover{
+    background-color: #edeff4 !important;
+    border-radius: 50%;
+}
+.card-content .login-signup-button{
+    all:unset;
+    height:50px;
+    width:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:5px;
+}
+.content{
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10px;
+    height: 180px;
+}
+.card-footer{
+    width: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(205, 205, 205);
+}
+.card-footer .footer-group{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-footer .login-signup-button{
+    all:unset;
+}
+.other-options{
+    position: relative;
+    width: 70%;
+    display:flex;
+    justify-content: flex-end;
+    margin-top:10px;
+
+}
+.other-options .login-signup-button{
+    all:unset;
+    padding: 10px;
+    border: 2px solid rgb(189, 189, 189);
+    border-radius: 12px;
+    margin-left:10px;
+}
+.other-options .menu{
+    position: absolute;
+    top: 115%;
+    z-index:9999;
+}
+
+.preview-card-area-container {
+    position: relative;
+    width: 70%;
+    display:flex;
+    justify-content: flex-end;
+    margin-top:10px;
+  }
+.all-terms-content{
+    width: 70%;
+    
+}
+.all-terms-content-header{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+    align-items: center;
+}
+.all-terms-content-header span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.learning{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+    align-items: center;
+}
+.learning-div span{
+    font-size: 24px;
+    font-weight: 700;
+    color:orange;
+}
+.term-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0px;
+    margin-bottom: 8px;
+}
+.term-content div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.term-content span{
+    font-size: 24px;
+}
+.term-content span:first-child {
+    margin-left:20px;
+}
+.term-content div .login-signup-button{
+    padding: 8px 8px;
+    border:none;
+    margin:8px 0px;
+}

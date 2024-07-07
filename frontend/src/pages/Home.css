@@ -1,0 +1,68 @@
+
+.App{
+    background-color: rgb(224, 232, 241);
+    height: 100%;
+    
+}
+.add-course-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.add-course-container img {
+    position: absolute;
+    right: 32%;
+}
+
+/* .login-signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 166, 0, 0.925) !important;
+    width: 80%;
+    margin: 30px auto;
+    margin-top: 10px;
+    padding: 25px 0px
+} */
+
+.login-signup-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a span {
+    color: white;
+    font-size: 30px;
+
+}
+.preview-card-area-title{
+    width: 79%;
+    text-align: left;
+    margin: auto;
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: normal;
+    line-height: 1.4;
+}
+.preview-card-area{
+    width: 80%;
+    margin:10px auto;
+    margin-bottom:10px;
+    display: flex;
+
+}
+.preview-card-area {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .preview-card-wrapper {
+    flex-basis: calc(50% - 1rem); /* Adjust the width as needed */
+    margin-bottom: 2rem;
+  }

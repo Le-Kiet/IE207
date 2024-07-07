@@ -1,0 +1,125 @@
+.blog-page-container{
+  width: 70%;
+  margin:0px auto;
+}
+.search-input-container {
+    position: relative;
+    box-shadow: 0 .25rem 1rem 0 #282e3e14;
+    width: 100%;
+    background-color: var(--gray-100-gray-700);
+    border-width: .0625rem;
+    border-style: solid;
+    border-color: var(--gray-500-gray-600);
+    border-radius: .5rem;
+  }
+  
+  .search-input {
+    max-width: 100%;
+    padding-left: 30px; /* Tạo khoảng cách cho icon */
+    flex: 1 1;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+  }
+  .blog-container {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    margin-top:12px;
+    overflow: hidden;    
+    border-radius: 12px;
+    outline: none;
+    position: relative;
+  }
+  .blog{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .blog > * {
+    max-width: 100%;
+  }
+  @media (max-width: 768px) {
+    .blog {
+      grid-template-columns: 1fr;
+    }
+  }
+  .book-container{
+    width: 100%;
+    margin-top:12px;
+    display: flex;
+  }
+.sort-book{
+  margin: 12px;
+  width:400px
+}
+.sort-container{
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 12px;
+  border:1px solid gainsboro;
+  width: 100%;
+}
+.list-group{
+  position: relative;
+}
+.sort-container .sort-name{
+  position: inherit;
+  padding:10px;
+  cursor: pointer;
+  margin: 10px;
+  min-width: max-content;
+}
+.sort-container .sort-name:last-child{
+  padding:10px;
+  border-bottom:none;
+}
+.sort-container .sort-name:hover{
+  background-color: ghostwhite;
+  border-radius: 5px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none; /* Loại bỏ các dấu chấm */
+}
+.page-item {
+  margin: 0 10px; /* Thêm khoảng cách giữa các mục */
+  display: inline;
+}
+.page-link {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  padding: .5rem .75rem;
+  border-radius: .25rem;
+}
+.page-item input {
+  text-align: center; 
+}
+.pagination .page-item .page-link {
+  color: black; 
+  background-color: gainsboro; 
+  padding: 0.5rem 0.75rem;
+  margin: 0 0.25rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  width: 10rem; /* Chiều rộng cố định để tạo hình vuông */
+  height: 10rem; /* Chiều cao cố định để tạo hình vuông */
+}
+.pagination .page-item.active .page-link {
+  color: black; 
+  background-color: white;
+  border-color: black;
+}
+.pagination .page-item .page-link:hover {
+  background-color: gray;
+}

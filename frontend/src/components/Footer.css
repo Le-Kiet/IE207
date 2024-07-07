@@ -1,0 +1,67 @@
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+
+}
+.footer-container{
+    margin: auto;
+    width: 80%;
+}
+.footer-table {
+    width: 80%;
+}
+
+.footer-table td {
+    padding: 5px 10px;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    /* Căn lề về bên trái */
+}
+
+.footer-table .footer-content {
+    align-content: left;
+}
+
+.footer-content td a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+.footer-column-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.copy-right {
+    font-size: 10px;
+    font-style: italic;
+    color: #888;
+}
+.footer-social-link{
+    display:flex;
+}
+.footer-social-link .footer-social-button .login-signup-button {
+    background-color: #f2f2f2 !important;
+    padding: 0px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+    margin: 5px;
+    border:2px solid #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-social-link .footer-social-button:hover .login-signup-button {
+    background-color: #cacaca  !important;
+    border-radius: 50%;
+}

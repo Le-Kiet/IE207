@@ -1,0 +1,112 @@
+.learn-header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+}
+.learn-header .menu{    
+    position: absolute;
+    top:100%;
+    border:2px solid rgb(212, 212, 245)
+}
+.menu .login-signup-button:hover{
+    background:unset;
+}
+.learn-header li{
+    margin:0px;
+    padding:0px;
+}
+.learn-header .login-signup-button:first-child{
+    border:none;
+    margin:8px;
+}
+.learn-header .login-signup-button{
+    margin:8px;
+}
+.question-container{
+    width:50%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 12px;
+    padding:20px;
+}
+.question-options{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(150, 150, 150)
+}
+.question-options .login-signup-button{
+    border:none;
+    padding:8px;
+}
+.question-content{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px auto;
+}
+.question-demand{
+    margin-top:50px;
+    font-weight: 600;
+    font-size:18px;
+}
+.question-multiple-choice-answer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+
+  }
+.question-multiple-choice-answer .answer-option {
+    display:flex;
+    align-items: center;
+}
+.question-multiple-choice-answer .answer-option div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 197, 197);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  .question-multiple-choice-answer .answer-option span{
+    margin-left: 15px;
+    font-size: 18px;
+  }
+  .answer-option:hover{
+    border:2px solid rgb(63, 63, 63);
+    cursor:pointer
+  }
+.question-multiple-choice-answer div {
+    padding: 10px;
+    border:2px solid rgb(197, 197, 197);
+    border-radius:12px
+}
+.question-give-up{
+    margin: 16px auto;
+    display: flex;
+    justify-content: center;
+    cursor:pointer;
+    width:30%;
+    
+    padding:8px 16px;
+}
+.question-give-up:hover{
+    background:rgb(231, 231, 231);
+    border-radius: 12px;
+}
+.true-answer{
+    border:2px solid green !important;
+}
+/* .false-answer{
+    border:2px solid red !important;
+} */
+
+.answered{
+    background-color: black;
+    padding:100px;
+}

@@ -1,0 +1,45 @@
+.preview-card-area {
+    width:80% !important;
+  margin: 10px auto;
+  margin-bottom: 10px;
+  display: flex;
+  position: relative;
+}
+.chervon-area {
+  background: linear-gradient(to right, rgba(123, 120, 120, 0.5), rgba(255, 0, 0, 0));
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.chervon-right {
+    display: none;
+    position: absolute;
+    right:3%;
+    top:36%;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
+.chervon-left {
+    display: none;
+    position: absolute;
+    left:-2%;
+    top:36%;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    font-weight: bolder;
+    
+}
+.preview-card-area:hover .chervon-right,.chervon-left {
+    display: block;
+    animation: fade-in 0.7s forwards;
+
+}
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
